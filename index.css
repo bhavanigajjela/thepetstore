@@ -808,7 +808,7 @@ border-radius: 3px;
 .footer {
   width: 100%;
   height: 400px;
-  background-color: rgb(1, 1, 80);
+  background-color:#18273c;
   margin-top: 40px;
   display: flex;
   position: relative;
@@ -956,7 +956,7 @@ border-radius: 3px;
   display: flex;
   width:100%;
   height:50px;
-  background-color: rgb(2, 2, 96);
+  background-color:#242d62;
   padding:15px;
 }
 .copyright1{
