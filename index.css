@@ -112,30 +112,67 @@ nav img {
   cursor: pointer;
 }
 .main {
-  display: flex;
+  display: block;
   position: relative;
-  /* z-index: 1; */
+  z-index: 1;
   width: 100%;
   height: 300px;
   background-color: rgb(6, 6, 77);
+  margin-top: 3%;
 }
-.main{
-  display: none;
-}
-.main span {
+.child1 {
+  display: flex;
+  flex-direction: row nowrap;
   color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 60px;
+  padding-top: 80px;
 }
-.child1{
+/* .homeservices{
+  display: block;
+  background-color: #363838;
+  width:30%;
+  height:65%;
+  margin-left: 9%;
+padding-top: 1%;
+}
+.ul1{
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
+  margin-left: 3%;
+  width:45%;
+  height:100px;
+  background-color: #242d62;
 }
-.first p {
+.homeservices h5{
+  font-size: 18px;
+  color:#515252;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  margin-left: 2%;
+}
+.ul1 img{
+  width:30px;
+  height:30px;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.ul1 span{
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  margin-top: 4%;
+  margin-left: 2%;
+} */
+/* .first p {
   display: flex;
   padding: 3px;
   opacity: 1;
   color: white;
   font-weight: bolder;
-}
+} */
 #img img {
   display: flex;
   width: 100%;
@@ -815,7 +852,7 @@ border-radius: 3px;
   justify-content: space-around;
   padding-top: 3%;
   /* padding:10px; */
-  color: #979797 transparent !important;
+  color: #979797 transparent;
   font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -833,6 +870,7 @@ border-radius: 3px;
   border-bottom: none;
   font-size: 16px;
   font-weight: 700;
+  color:rgb(121,132,128);
 }
 .firstfooter div {
   line-height: 2;
@@ -841,7 +879,6 @@ border-radius: 3px;
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  font-weight: 600;
   cursor: pointer;
 }
 .firstfooter div:hover{
@@ -859,6 +896,8 @@ border-radius: 3px;
   border-bottom: none;
   font-size: 16px;
   font-weight: 700;
+    color:rgb(121,132,128);
+
 }
 .secondfooter div {
   line-height: 2;
@@ -867,7 +906,6 @@ border-radius: 3px;
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  font-weight: 600;
   cursor: pointer;
 }
 .secondfooter div:hover{
@@ -885,6 +923,8 @@ border-radius: 3px;
   border-bottom: none;
   font-size: 16px;
   font-weight: 700;
+    color:rgb(121,132,128);
+
 }
 .thirdfooter div {
   line-height: 2;
@@ -893,7 +933,7 @@ border-radius: 3px;
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
 }
 .thirdfooter div:hover{
@@ -910,7 +950,9 @@ border-radius: 3px;
   margin-left: 2%;
   border-bottom: none;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
+    color:rgb(121,132,128);
+
 }
 .fourthfooter div {
   line-height: 2;
@@ -934,6 +976,7 @@ border-radius: 3px;
 .fourthfooter div img{
   margin-top: 2%;
   display: flex;
+  
   width:30px;
   height:30px;
 }
